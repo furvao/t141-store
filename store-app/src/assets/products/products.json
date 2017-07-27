@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Aparelho de Barbear Metal Classic",
+		"code": "6980410223135",		
+		"reference": "767",
+		"weight": 24,
+		"quantity": 480,
+		"size": "45cm x 25cm x 41cm",
+		"imageUrl": "../assets/produtos/767a.jpg",
+		"category": "Sekich Personal Care",
+		"highlight": true
+    },
+	{
+        "name": "Aparelho de Barbear Metal Classic",
+		"code": "6980410223135",		
+		"reference": "767",
+		"weight": 24,
+		"quantity": 480,
+		"size": "45cm x 25cm x 41cm",
+		"imageUrl": "../assets/produtos/767a.jpg",
+		"category": "Sekich Personal Care",
+		"highlight": true
+    },
+	{
+        "name": "Aparelho de Barbear Metal Classic",
+		"code": "6980410223135",		
+		"reference": "767",
+		"weight": 24,
+		"quantity": 480,
+		"size": "45cm x 25cm x 41cm",
+		"imageUrl": "../assets/produtos/767a.jpg",
+		"category": "Sekich Personal Care",
+		"highlight": false
+    },
+	{
+        "name": "Aparelho de Barbear Metal Classic",
+		"code": "6980410223135",		
+		"reference": "767",
+		"weight": 24,
+		"quantity": 480,
+		"size": "45cm x 25cm x 41cm",
+		"imageUrl": "../assets/produtos/767a.jpg",
+		"category": "Sekich Personal Care",
+		"highlight": true
+    }
+]
