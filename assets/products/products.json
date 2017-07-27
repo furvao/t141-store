@@ -6,7 +6,7 @@
 		"weight": 0.2,
 		"quantity": 100,
 		"size": "5cm x 10cm x 2cm",
-		"imageUrl": "../assets/products/cotonetes.jpg",
+		"imageUrl": "./assets/products/cotonetes.jpg",
 		"category": "Higene Pessoal",
 		"highlight": true,
 		"price": 5.50
@@ -18,7 +18,7 @@
 		"weight": 24,
 		"quantity": 480,
 		"size": "10cm x 4cm x 2cm",
-		"imageUrl": "../assets/products/colgate.jpg",
+		"imageUrl": "./assets/products/colgate.jpg",
 		"category": "Higene Pessoal",
 		"highlight": true,
 		"price": 4.50
@@ -30,7 +30,7 @@
 		"weight": 0.1,
 		"quantity": 50,
 		"size": "10cm x 1cm x 1cm",
-		"imageUrl": "../assets/products/escova-de-dente.jpg",
+		"imageUrl": "./assets/products/escova-de-dente.jpg",
 		"category": "Higene Pessoal",
 		"highlight": false,
 		"price": 2.50
@@ -42,7 +42,7 @@
 		"weight": 0.3,
 		"quantity": 100,
 		"size": "4cm x 4cm x 3cm",
-		"imageUrl": "../assets/products/protex.jpg",
+		"imageUrl": "./assets/products/protex.jpg",
 		"category": "Higene Pessoal",
 		"highlight": true,
 		"price": 3.50
