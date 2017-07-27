@@ -17,7 +17,11 @@
   </table>
 
   <p class="text-right"><strong>Total: </strong>{{totalValue | currency:'BRL':true}}</p>
+
+  <button class="btn btn-primary" (click)='doOrder()'>Realizar Pedido</button>
 </div>
 <div *ngIf='products == null'>
   <p class="text-center"><strong>Não há produtos no carrinho no momento! </strong></p>
 </div>
+
+

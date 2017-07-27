@@ -36,7 +36,7 @@ import { LoginComponent } from "./users/login/login.component";
       { path: 'products', component: ProductsComponent },
       { path: 'cart', component: CartComponent },
       { path: 'users', component: UsersComponent },
-      { path: 'login', component: LoginComponent },
+      { path: 'users/login', component: LoginComponent },
       
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
