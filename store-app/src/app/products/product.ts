@@ -6,7 +6,9 @@ export interface IProduct {
     quantity: number;
     size: string;
     imageUrl: string;
-	highlight: boolean;
+    highlight: boolean;
+    price: number;
+    orderQtd: number;
 }
 
 export class Product implements IProduct {
@@ -19,7 +21,9 @@ export class Product implements IProduct {
         public quantity: number,
         public size: string,
         public imageUrl: string,
-        public highlight: boolean) {
+        public highlight: boolean,
+        public price: number,
+        public orderQtd: number) {
 
     }
 

@@ -1,25 +1,33 @@
 <h1>Produtos</h1>
 
 <div class="row">
-    <div class="col-md-2">Filtrar por:</div>
-    <div class="col-md-4">
-        <input type="text" [(ngModel)]='listFilter'>
-    </div>
+  <div class="col-md-2">Filtrar por:</div>
+  <div class="col-md-4">
+    <input type="text" [(ngModel)]='listFilter'>
+  </div>
 </div>
-
+<div>&nbsp;</div>
+<div>&nbsp;</div>
 <ul class="list-inline">
-  <li class="list-inline-item col-xs-3 col-md-4" *ngFor='let product of products | productFiler: listFilter'>
-    <!-- adicionar validação para mostrar apenas product da categoria selecionada -->
-    <h3>{{product.categoria}}</h3>    
+  <li class="list-inline-item col-xs-2 col-md-3" *ngFor='let product of products | productFiler: listFilter'>
+
     <div class="row">
-        <h2>{{product.name}}</h2>
-        <img class="img-responsive" src="{{product.imageUrl}}" alt="{{product.name}}">
-        <p><strong>Produto: </strong>{{product.name}}</p>      
-        <p><strong>Referência: </strong>{{product.reference}}</p>      
-        <p><strong>Código: </strong>{{product.code}}</p>      
-        <p><strong>Peso Bruto: </strong>{{product.weight}}</p>      
-        <p><strong>Quantidade Por Caixa: </strong>{{product.quantity}}</p>      
-        <p><strong>Tamanho da Emabalagem: </strong>{{product.size}}</p>      
+      <img class="img-responsive" src="{{product.imageUrl}}" alt="{{product.name}}">
+      <p><strong>Produto: </strong>{{product.name}}</p>
+      <p><strong>Referência: </strong>{{product.reference}}</p>
+      <p><strong>Código: </strong>{{product.code}}</p>
+      <p><strong>Peso Bruto: </strong>{{product.weight}}</p>
+      <p><strong>Quantidade Por Caixa: </strong>{{product.quantity}}</p>
+      <p><strong>Embalagem: </strong>{{product.size}}</p>
+      <p><strong>Preço: </strong>{{product.price | currency:'BRL':true}}</p>
+      <button class="btn btn-primary" (click)='addToCart(product)'>Adicionar ao Carrinho</button>
     </div>
   </li>
 </ul>
+
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>

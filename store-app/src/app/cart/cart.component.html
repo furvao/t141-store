@@ -1,14 +1,23 @@
-<table>
-  <thead>
-    <th>Produto</th>
-    <th>Quantidade</th>
-    <th>Preço</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Produto 1</td>
-      <td>1</td>
-      <td>R$10,00</td>
-    </tr>
-  </tbody>
-</table>
+<div *ngIf='products && products.length > 0'>
+  <table class="table" >
+    <thead>
+      <th>Produto</th>
+      <th>Quantidade</th>
+      <th>Preço Unitário</th>
+      <th>Preço Total</th>
+    </thead>
+    <tbody>
+      <tr *ngFor='let product of products'>
+        <td>{{product.name}}</td>
+        <td>{{product.orderQtd}} <button (click)='addOrderQtd(product)'>+</button> <button (click)='removeOrderQtd(product)'>-</button></td>
+        <td>{{product.price | currency:'BRL':true}}</td>
+        <td>{{itemPrice | currency:'BRL':true}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="text-right"><strong>Total: </strong>{{totalValue | currency:'BRL':true}}</p>
+</div>
+<div *ngIf='products == null'>
+  <p class="text-center"><strong>Não há produtos no carrinho no momento! </strong></p>
+</div>
