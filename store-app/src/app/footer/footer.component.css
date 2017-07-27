@@ -1,0 +1,9 @@
+.footer {
+  background-image: url("/assets/background.jpg");
+  color: #737373;
+  margin-bottom: 0;
+  position: fixed;
+  left: 0px;
+  width: 100%; 
+  bottom: 0px;
+}
